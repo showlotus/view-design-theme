@@ -100,7 +100,7 @@
 @date-picker-cell-hover-bg: #e1f0fe; // 10 => tint(@primary-color, 85%)
 ```
 
-总计 4 种颜色，执行完 `iview-theme build -o dist/` 后，需要进行用 4 个 CSS 全局变量替换它们：
+总计 10 种颜色，执行完 `iview-theme build -o dist/` 后，需要进行用 10 个 CSS 全局变量替换它们：
 
 1. `#2d8cf0`：替换为 `var(--ivu-primary-color, #2d8cf0)`，总计 <big>**113**</big> 个；
 2. `#57a3f3`：替换为 `var(--ivu-link-hover-color, #57a3f3)`，总计 <big>**46**</big> 个；
